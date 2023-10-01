@@ -1,3 +1,5 @@
+package targil2;
+
 public abstract class Employee {
     private String name;
     private int id;
@@ -14,7 +16,7 @@ public abstract class Employee {
     }
 
     public double calcBonus() {
-        return 0;
+        return 0.0;
     }
 
 

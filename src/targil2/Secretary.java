@@ -1,3 +1,5 @@
+package targil2;
+
 public class Secretary extends Employee{
     private int countWordsPerMinutes;
 
@@ -16,6 +18,6 @@ public class Secretary extends Employee{
 
     @Override
     public String toString() {
-        return "Secretary: " + super.toString() + " ,countWordsPerMinutes=" + countWordsPerMinutes;
+        return "targil2.Secretary: " + super.toString() + " ,countWordsPerMinutes=" + countWordsPerMinutes;
     }
 }

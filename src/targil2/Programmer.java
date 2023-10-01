@@ -1,3 +1,5 @@
+package targil2;
+
 public class Programmer extends Employee{
 
     public Programmer() {
@@ -14,6 +16,6 @@ public class Programmer extends Employee{
 
     @Override
     public String toString() {
-        return "Programmer: " + super.toString();
+        return "targil2.Programmer: " + super.toString();
     }
 }

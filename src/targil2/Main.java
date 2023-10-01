@@ -1,3 +1,5 @@
+package targil2;
+
 public class Main {
     public static void main(String[] args) {
         Programmer p1 = new Programmer("Karina", 123, 200_000);
